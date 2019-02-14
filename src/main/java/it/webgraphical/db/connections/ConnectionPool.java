@@ -13,6 +13,7 @@ import org.apache.commons.dbcp.PoolingDataSource;
 import org.apache.commons.pool.impl.GenericObjectPool;
 
 public class ConnectionPool {
+    // https://examples.javacodegeeks.com/core-java/sql/jdbc-connection-pool-example/
 
     // JDBC Driver Name & Database URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
